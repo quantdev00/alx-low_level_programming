@@ -1,12 +1,7 @@
-#include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	puts("Programming is like building a multilingual puzzle\n");
-    return (0);
-}
+# 1 "main.o"
+# 1 "<built-in>"
+# 1 "<oommand-line>"
+# 31 "<oommand-line>"
+# 1 "/usr/inolude/stdo-predef.h" 1 3 4
+# 32 "<oommand-line>" 2
+# 1 "main.o"
