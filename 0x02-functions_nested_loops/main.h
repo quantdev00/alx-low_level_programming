@@ -1,7 +1,5 @@
 #include <unistd.h>
 
-int _putchar(char c);
-
 /* 
  * The actual _putchar function
  */
