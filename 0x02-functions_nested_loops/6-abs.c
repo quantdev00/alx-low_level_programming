@@ -2,12 +2,11 @@
 #include "main.h"
 
 /**
- * print_sign - print the sign
+ * _abs - print the sign
  * @n: the number
- *
  * Return: 0
  */
-int print_sign(int  n)
+int _abs(int  n)
 {
-	
+	return (abs(n));
 }
