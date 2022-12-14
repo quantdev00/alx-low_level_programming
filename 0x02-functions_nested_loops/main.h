@@ -5,4 +5,4 @@
  */
 
 int _putchar(char c);
-void print_alphabet_o(void);
+void print_alphabet(void);
