@@ -7,9 +7,14 @@ int main(void)
 {
 	print_alphabet_x10();
 	printf("Testing is lower case\n");
-	_islower('H');
-	_islower('o');
-	_islower(108);	
+	int r;
+	r = _islower('H');
+	_putchar(r + '0');
+	r = _islower('o');
+	_putchar(r + '0');
+	r = _islower(108);
+	_putchar(r + '0');
+		
 	printf("\n");
 	return (0);
 }
