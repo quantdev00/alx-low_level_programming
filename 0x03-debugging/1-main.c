@@ -13,8 +13,8 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10)/* This is the loop */
-	{
+	while (i < 10) 
+	{/* Error is here */
 		putchar(i);
 	}
 
