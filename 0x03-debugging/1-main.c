@@ -12,10 +12,10 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-	/* The problem is here */
+	
 	while (i < 10) 
 	{
-		putchar(i);
+		putchar(i);/* New file */
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
