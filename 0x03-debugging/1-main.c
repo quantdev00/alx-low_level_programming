@@ -12,9 +12,9 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-
+	/* The problem is here */
 	while (i < 10) 
-	{/* Error is here */
+	{
 		putchar(i);
 	}
 
