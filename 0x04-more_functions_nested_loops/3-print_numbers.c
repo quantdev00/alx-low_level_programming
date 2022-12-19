@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include "_putchar.h"
 /**
  * print_numbers - prints a to z'
  *
