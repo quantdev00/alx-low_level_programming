@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 #include "_putchar.c"
-#include "3-print_numbers.c"
+#include "4-print_most_numbers.c"
 /**
  * main - prints a to z'
  *
@@ -8,6 +10,6 @@
  */
 int main(void)
 {	
-	print_numbers();
+	print_most_numbers();
 	return (0);
 }
