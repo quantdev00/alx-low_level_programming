@@ -1,11 +1,9 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-#include "_putchar.c"
-#include <stdio.h>
-#include <unistd.h>
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int, int);
 void print_numbers(void);
-#endif /* MAIN_H */
+
+#endif
