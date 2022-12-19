@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * print_numbers - prints a to z'
