@@ -3,10 +3,10 @@
 #include <string.h>
 /**
  * _strlen - reset tthe number to 98
- * @n: the number to use
+ * @s: the number to use
  * Return: 0
  */
 int _strlen(char *s)
 {
-	return strlen(s);
+	return (strlen(s));
 }
