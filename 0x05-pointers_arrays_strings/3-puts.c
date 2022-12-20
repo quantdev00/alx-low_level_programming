@@ -11,6 +11,6 @@ void _puts(char *str)
 {
 	char myChar = *str;
 
-	printf("%s", myChar);
+	printf("%c", *str);
 	_putchar('\n');
 }
