@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * _puts - reset tthe number to 98
@@ -8,5 +9,13 @@
  */
 void _puts(char *str)
 {
-	putchar('Y');
+	char myChar = *str;
+
+	int i;
+
+	for (i = 0;i <= strlen(str); i++)
+	{
+		_putchar(myChar + '0');
+	}
+	_putchar('\n');
 }
