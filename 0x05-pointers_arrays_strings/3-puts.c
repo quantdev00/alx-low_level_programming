@@ -10,10 +10,10 @@
 void _puts(char *str)
 {
 	long int i;
-	int length =strlen(str);
+	int length = strlen(str);
+
 	for (i = 0; i <= length; i++)
 	{
 		printf("%c", str[i]);
 	}
-	_putchar('\n');
 }
