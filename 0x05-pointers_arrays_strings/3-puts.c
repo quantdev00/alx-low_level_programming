@@ -10,7 +10,8 @@
 void _puts(char *str)
 {
 	long int i;
-	for (i = 0; i <= 50; i++)
+	int length =strlen(str);
+	for (i = 0; i <= length; i++)
 	{
 		printf("%c", str[i]);
 	}
