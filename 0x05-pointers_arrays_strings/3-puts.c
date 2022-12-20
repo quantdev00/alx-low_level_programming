@@ -16,4 +16,5 @@ void _puts(char *str)
 	{
 		fprintf(stdout, "%c", str[i]);
 	}
+	fprintf(stdout, "\n");
 }
