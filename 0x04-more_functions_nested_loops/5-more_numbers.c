@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include "_putchar.c"
 
 /**
  * more_numbers - print from 0 to 14
