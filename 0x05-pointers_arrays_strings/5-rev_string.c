@@ -12,7 +12,7 @@ void rev_string(char *s)
 	int i;
 	int length = strlen(s);
 
-	for (i = length; i >= 0; i--)
+	for (i = 11; i >= 0; i--)
 	{
 		printf("%c", s[i]);
 	}
