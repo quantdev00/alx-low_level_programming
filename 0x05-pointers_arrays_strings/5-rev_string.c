@@ -14,7 +14,7 @@ void rev_string(char *s)
 
 	for (i = length - 1; i >= 0; i--)
 	{
-		fprintf(stdout, "%s", s[i]);
+		fprintf(stdout, "%d", s[i]);
 	}
 	putchar('\n');
 }
