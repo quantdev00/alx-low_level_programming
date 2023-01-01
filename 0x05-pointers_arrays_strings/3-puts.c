@@ -16,5 +16,5 @@ void _puts(char *str)
 	{
 		fprintf(stdout, "%c", str[i]);
 	}
-	printf("\n");
+	putchar('\n');
 }
