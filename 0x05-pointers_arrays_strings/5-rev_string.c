@@ -11,10 +11,12 @@ void rev_string(char *s)
 {
 	int i;
 	int length = strlen(s);
+	char values[length];
 
-	for (i = 11; i >= 0; i--)
+	for (i = length - 1; i >= 0; i--)
 	{
-		printf("%c", s[i]);
+		values[i] = s[i];
 	}
+	*s = values[length];
 	putchar('\n');
 }
