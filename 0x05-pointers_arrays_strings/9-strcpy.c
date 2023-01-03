@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * print_sign - print the sign
@@ -9,6 +10,8 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	dest = src;
+	int n = strlen(src);
+
+	dest[n] = src[n];
 	return (dest);
 }
