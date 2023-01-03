@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * print_sign - print the sign
+ * *_strcpy - copy function
  * @dest: to be returned
  * @src: string to copy
  *
