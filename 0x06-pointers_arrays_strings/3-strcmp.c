@@ -10,13 +10,10 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int n1 = strlen(s1);
-	int n2 = strlen(s2);
-
-	if (n1 < n2)
+	if (s1 < s2)
 		return (-15);
-	else if (n1 > n2)
+	else if (s1 > s2)
 		return (15);
-	else
+	else if (s1 == s2)
 		return (0);
 }
