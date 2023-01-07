@@ -4,17 +4,17 @@
 
 /**
  * *string_toupper - reversing the received array
- * @*: the char
+ * @str: the char
  *
  * Return: 0;
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i = 0;
-	
-	while (*[i] != '\0')
+
+	while (str[i] != '\0')
 	{
-		toupper(*[i]);
+		toupper(str[i]);
 		i++;
 	}
 }
